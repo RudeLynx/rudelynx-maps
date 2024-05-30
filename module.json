@@ -1,0 +1,48 @@
+{
+  "id": "rudelynx-maps",
+  "name": "rudelynx-maps",
+  "title": "RudeLynx Maps",
+  "description": "A module to add custom maps for Foundry VTT.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "author": "RudeLynx",
+  "authors": [
+    {
+      "name": "RudeLynx",
+      "discord": "https://discordapp.com/users/241932871542112266",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "rudelynx-maps",
+      "label": "RudeLynx Maps",
+      "path": "/packs/rudelynx-maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "multilevel-tokens",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://github.com/Rudekay/Rudelynx-Maps",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
