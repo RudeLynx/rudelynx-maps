@@ -3,7 +3,7 @@
   "name": "rudelynx-maps",
   "title": "RudeLynx Maps",
   "description": "A module to add custom maps for Foundry VTT.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
   "compatibility": {
