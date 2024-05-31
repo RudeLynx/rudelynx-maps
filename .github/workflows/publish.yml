@@ -143,9 +143,3 @@ jobs:
           artifacts: './module.json, ./rudelynx-maps.zip'
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
-
-      - name: Update Foundry VTT
-        run: |
-          mkdir -p dist
-          cp -r * dist/
-        shell: bash
